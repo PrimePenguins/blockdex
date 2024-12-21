@@ -1,5 +1,5 @@
-# Hello All! 
+# The Blockdex Project
 
-This is a minecraft block collection adavcment thing..
+This datapack was made speficly for people who want to collect all of the blocks in their inv.
 
-This is a pretty heavy and huge project.
+Progress: Slow
