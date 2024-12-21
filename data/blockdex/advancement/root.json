@@ -5,7 +5,7 @@
       },
       "title": "Dirtin' The Start!",
       "description": "You collected dirt!",
-      "background": "minecraft:blocks/dirt"
+      "background": ""
     },
     "criteria": {
       "dirt_get": {

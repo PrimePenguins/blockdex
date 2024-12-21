@@ -4,7 +4,7 @@
         "id": "minecraft:polished_tuff_slab"
       },
       "title": "It is not that TUFF yet!!",
-      "description": "You collected Polished Stair Slab!"
+      "description": "You collected Polished Tuff Slab!"
     },
     "parent": "blockdex:stone/polished/stairs/tuff",
     "criteria": {

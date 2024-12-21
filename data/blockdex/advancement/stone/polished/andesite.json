@@ -8,12 +8,12 @@
     },
     "parent": "blockdex:stone/andesite",
     "criteria": {
-      "andesite": {
+      "polished_andesite": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
-              "items": "minecraft:polished_andesite"
+              "items": "minecraft:polished_andesite_b"
             }
           ]
         }
