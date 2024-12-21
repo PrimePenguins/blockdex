@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:polished_andesite_stairs"
+      },
+      "title": "A Polished Stair!",
+      "description": "You collected Polished Andesite Stairs!"
+    },
+    "parent": "blockdex:stone/polished/andesite",
+    "criteria": {
+      "polished_andesite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:polished_andesite_stairs"
+            }
+          ]
+        }
+      }
+    }
+  }

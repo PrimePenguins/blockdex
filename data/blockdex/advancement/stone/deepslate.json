@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:deepslate"
+      },
+      "title": "Not quite as good as orginal.",
+      "description": "You collected Deepslate!"
+    },
+    "parent": "blockdex:stone/cobbled_deepslate",
+    "criteria": {
+      "cobbled_deepslate": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:deepslate"
+            }
+          ]
+        }
+      }
+    }
+  }

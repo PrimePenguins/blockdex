@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:polished_granite_stairs"
+      },
+      "title": "3/4th of a person?",
+      "description": "You collected Polished Granite Slabs!"
+    },
+    "parent": "blockdex:stone/polished/stairs/granite",
+    "criteria": {
+      "polished_granite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:polished_granite_slab"
+            }
+          ]
+        }
+      }
+    }
+  }

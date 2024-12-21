@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:coarse_dirt"
+      },
+      "title": "Coarsin' The Dirt!",
+      "description": "You collected Coarse Dirt!"
+    },
+    "parent": "blockdex:root",
+    "criteria": {
+      "cdirt_get": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:coarse_dirt"
+            }
+          ]
+        }
+      }
+    }
+  }

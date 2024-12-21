@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:dirt"
+      },
+      "title": "Dirtin' The Start!",
+      "description": "You collected dirt!",
+      "background": "minecraft:blocks/dirt"
+    },
+    "criteria": {
+      "dirt_get": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:dirt"
+            }
+          ]
+        }
+      }
+    }
+  }

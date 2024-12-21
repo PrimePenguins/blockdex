@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:polished_tuff_slab"
+      },
+      "title": "It is not that TUFF yet!!",
+      "description": "You collected Polished Stair Slab!"
+    },
+    "parent": "blockdex:stone/polished/stairs/tuff",
+    "criteria": {
+      "polished_granite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:polished_tuff_slab"
+            }
+          ]
+        }
+      }
+    }
+  }

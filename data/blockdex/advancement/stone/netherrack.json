@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:netherrack"
+      },
+      "title": "It's EVERYWHERE!",
+      "description": "You collected Netherrack!"
+    },
+    "parent": "blockdex:stone/stone",
+    "criteria": {
+      "andesite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:netherrack"
+            }
+          ]
+        }
+      }
+    }
+  }

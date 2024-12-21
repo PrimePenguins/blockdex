@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:blackstone"
+      },
+      "title": "Darker Nethers Rock!",
+      "description": "You collected Blackstone!"
+    },
+    "parent": "blockdex:stone/basalt",
+    "criteria": {
+      "andesite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:blackstone"
+            }
+          ]
+        }
+      }
+    }
+  }

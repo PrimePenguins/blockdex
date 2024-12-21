@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:polished_deepslate_wall"
+      },
+      "title": "its A Sad Wall!",
+      "description": "You collected Polished Deepslate Wall!"
+    },
+    "parent": "blockdex:stone/polished/slabs/deepslate",
+    "criteria": {
+      "polished_granite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:polished_deepslate_wall"
+            }
+          ]
+        }
+      }
+    }
+  }

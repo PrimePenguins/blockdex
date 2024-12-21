@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:stone"
+      },
+      "title": "It is Stone!",
+      "description": "You collected Stone!"
+    },
+    "parent": "blockdex:stone/cobblestone",
+    "criteria": {
+      "stone": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:stone"
+            }
+          ]
+        }
+      }
+    }
+  }

@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:cobbled_deepslate"
+      },
+      "title": "The Poet's Stone!",
+      "description": "You collected Cobbled Deepslate!"
+    },
+    "parent": "blockdex:stone/stone",
+    "criteria": {
+      "cobbled_deepslate": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:cobbled_deepslate"
+            }
+          ]
+        }
+      }
+    }
+  }

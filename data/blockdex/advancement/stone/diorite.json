@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:diorite"
+      },
+      "title": "Diorite? No, this is bird poop.",
+      "description": "You collected Diorite!"
+    },
+    "parent": "blockdex:stone/andesite",
+    "criteria": {
+      "andesite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:diorite"
+            }
+          ]
+        }
+      }
+    }
+  }

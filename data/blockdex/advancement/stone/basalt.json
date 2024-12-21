@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:basalt"
+      },
+      "title": "Nether's Rock!",
+      "description": "You collected Basalt!!"
+    },
+    "parent": "blockdex:stone/netherrack",
+    "criteria": {
+      "andesite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:basalt"
+            }
+          ]
+        }
+      }
+    }
+  }

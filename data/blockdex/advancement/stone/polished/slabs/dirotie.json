@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:polished_diorite_slab"
+      },
+      "title": "The Bird Pooped my slab!",
+      "description": "You collected Polished Diorite slab!"
+    },
+    "parent": "blockdex:stone/polished/stairs/dirotie",
+    "criteria": {
+      "polished_diorite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:polished_diorite_slab"
+            }
+          ]
+        }
+      }
+    }
+  }

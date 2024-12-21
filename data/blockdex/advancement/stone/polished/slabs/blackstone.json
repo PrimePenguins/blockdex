@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:polished_blackstone_slab"
+      },
+      "title": "Tougher Slabs!",
+      "description": "You collected Polished Blackstone Slab!"
+    },
+    "parent": "blockdex:stone/polished/stairs/blackstone",
+    "criteria": {
+      "polished_andesite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:polished_blackstone_brick_slab"
+            }
+          ]
+        }
+      }
+    }
+  }

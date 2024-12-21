@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:polished_granite_stairs"
+      },
+      "title": "Hey! Who turned him into slabs?",
+      "description": "You collected Polished Granite Stairs!"
+    },
+    "parent": "blockdex:stone/polished/granite",
+    "criteria": {
+      "polished_granite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:polished_granite_stairs"
+            }
+          ]
+        }
+      }
+    }
+  }

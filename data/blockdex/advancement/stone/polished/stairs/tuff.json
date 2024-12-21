@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:polished_tuff_stairs"
+      },
+      "title": "Life's getting less Tuff!",
+      "description": "You collected Polished Tuff Stairs!"
+    },
+    "parent": "blockdex:stone/polished/tuff",
+    "criteria": {
+      "polished_granite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:polished_tuff_stairs"
+            }
+          ]
+        }
+      }
+    }
+  }

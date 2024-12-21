@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:polished_tuff"
+      },
+      "title": "Life's Going Up!",
+      "description": "You collected Polished Tuff!"
+    },
+    "parent": "blockdex:stone/tuff",
+    "criteria": {
+      "polished_tuff": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:polished_tuff"
+            }
+          ]
+        }
+      }
+    }
+  }

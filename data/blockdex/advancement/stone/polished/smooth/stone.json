@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:smooth_basalt"
+      },
+      "title": "The Final Level!",
+      "description": "You collected Smooth Basalt!"
+    },
+    "parent": "blockdex:stone/stone",
+    "criteria": {
+      "polished_andesite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:smooth_basalt"
+            }
+          ]
+        }
+      }
+    }
+  }

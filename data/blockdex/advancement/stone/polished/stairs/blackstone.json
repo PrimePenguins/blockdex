@@ -1,0 +1,22 @@
+{
+    "display": {
+      "icon": {
+        "id": "minecraft:polished_blackstone_stairs"
+      },
+      "title": "Tough Stairs!",
+      "description": "You collected Polished Blackstone Stairs!"
+    },
+    "parent": "blockdex:stone/polished/blackstone",
+    "criteria": {
+      "polished_andesite": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "items": [
+            {
+              "items": "minecraft:polished_blackstone_brick_stairs"
+            }
+          ]
+        }
+      }
+    }
+  }
