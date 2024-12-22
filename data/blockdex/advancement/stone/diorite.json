@@ -6,7 +6,7 @@
       "title": "Diorite? No, this is bird poop.",
       "description": "You collected Diorite!"
     },
-    "parent": "blockdex:stone/andesite",
+    "parent": "blockdex:stone/stone",
     "criteria": {
       "andesite": {
         "trigger": "minecraft:inventory_changed",

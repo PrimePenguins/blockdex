@@ -1,19 +1,19 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:deepslate_bricks"
+        "id": "minecraft:cracked_deepslate_tiles"
       },
-      "title": "It's compressed deepness!",
-      "description": "You collected Deepslate Bricks!"
+      "title": "I think it's cracked..",
+      "description": "You collected Deepslate Tiles!"
     },
-    "parent": "blockdex:stone/cobbled_deepslate",
+    "parent": "blockdex:stone/polished/bricks/tile_deepslate",
     "criteria": {
       "polished_deepslate": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
-              "items": "minecraft:deepslate_bricks"
+              "items": "minecraft:deepslate_tiles"
             }
           ]
         }

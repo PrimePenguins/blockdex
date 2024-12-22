@@ -6,7 +6,7 @@
       "title": "Coarsin' The Dirt!",
       "description": "You collected Coarse Dirt!"
     },
-    "parent": "blockdex:root",
+    "parent": "blockdex:dirt",
     "criteria": {
       "cdirt_get": {
         "trigger": "minecraft:inventory_changed",

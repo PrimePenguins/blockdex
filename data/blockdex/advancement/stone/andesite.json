@@ -6,7 +6,7 @@
       "title": "Andesite's Rock!",
       "description": "You collected Andesite!"
     },
-    "parent": "blockdex:stone/stone",
+    "parent": "blockdex:stone/cobblestone",
     "criteria": {
       "andesite": {
         "trigger": "minecraft:inventory_changed",

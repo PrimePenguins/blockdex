@@ -6,7 +6,7 @@
       "title": "It's compressed deepness!",
       "description": "You collected Deepslate Bricks!"
     },
-    "parent": "blockdex:stone/cobbled_deepslate",
+    "parent": "blockdex:stone/polished/bricks/deepslate",
     "criteria": {
       "polished_deepslate": {
         "trigger": "minecraft:inventory_changed",

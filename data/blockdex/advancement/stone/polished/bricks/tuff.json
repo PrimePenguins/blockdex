@@ -1,19 +1,19 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:polished_tuff"
+        "id": "minecraft:tuff_bricks"
       },
-      "title": "Life's Going Up!",
-      "description": "You collected Polished Tuff!"
+      "title": "Maybe, it's Tuff!",
+      "description": "You collected Tuff Bricks!"
     },
-    "parent": "blockdex:stone/tuff",
+    "parent": "blockdex:stone/polished/chiseled/tuff",
     "criteria": {
       "polished_tuff": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
-              "items": "minecraft:polished_tuff"
+              "items": "minecraft:tuff_bricks"
             }
           ]
         }

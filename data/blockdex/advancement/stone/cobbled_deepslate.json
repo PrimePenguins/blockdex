@@ -6,7 +6,7 @@
       "title": "The Poet's Stone!",
       "description": "You collected Cobbled Deepslate!"
     },
-    "parent": "blockdex:stone/stone",
+    "parent": "blockdex:stone/cobblestone",
     "criteria": {
       "cobbled_deepslate": {
         "trigger": "minecraft:inventory_changed",

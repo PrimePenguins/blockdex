@@ -1,12 +1,12 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:diorite"
+        "id": "minecraft:tuff"
       },
       "title": "Life's Tuff!",
       "description": "You collected Tuff!"
     },
-    "parent": "blockdex:stone/granite",
+    "parent": "blockdex:stone/cobblestone",
     "criteria": {
       "andesite": {
         "trigger": "minecraft:inventory_changed",

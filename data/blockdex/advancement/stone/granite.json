@@ -6,7 +6,7 @@
       "title": "WHO IS THIS GRANITE CHARCTER?",
       "description": "You collected Granite!"
     },
-    "parent": "blockdex:stone/diorite",
+    "parent": "blockdex:stone/cobblestone",
     "criteria": {
       "andesite": {
         "trigger": "minecraft:inventory_changed",

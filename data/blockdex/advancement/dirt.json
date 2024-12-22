@@ -1,19 +1,20 @@
 {
     "display": {
       "icon": {
-        "id": "minecraft:netherrack"
+        "id": "minecraft:dirt"
       },
-      "title": "It's EVERYWHERE!",
-      "description": "You collected Netherrack!"
+      "title": "Dirtin' The Start!",
+      "description": "You collected dirt!"
+      
     },
-    "parent": "blockdex:stone/cobblestone",
+    "parent": "blockdex:root",
     "criteria": {
-      "andesite": {
+      "dirt_get": {
         "trigger": "minecraft:inventory_changed",
         "conditions": {
           "items": [
             {
-              "items": "minecraft:netherrack"
+              "items": "minecraft:dirt"
             }
           ]
         }
